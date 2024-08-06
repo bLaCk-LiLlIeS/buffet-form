@@ -1,0 +1,49 @@
+/* table, tr, td{
+    /* border: 2px solid black; */
+/* }  */
+*{
+    margin: 0;
+}
+body{
+    width: 100vw;
+   display: flex;
+   justify-content: center;
+   overflow: hidden;
+}
+form{
+    background-color: rgb(201,184,237);
+width: fit-content;
+padding: 8px;
+}
+.mainTable td{
+    width: 20vw;
+}
+h1{
+    
+    text-align: center;
+    color: white;
+    background-color: rgb(255,177,163);
+}
+#vegAdult, #vegKids,#nonVegAdult,#nonVegKids{
+    width: 3vw;
+}
+.adultTable td{
+border: 2px solid white;
+background-color: rgb(250,210,176);
+width: fit-content;
+}
+.adultTable{
+    border-spacing: 0;
+}
+.adultTable input[type="number"]{
+    /* padding: 4x; */
+    margin: 4px;
+}
+/* button */
+button{
+    padding: 4px 18px;
+    width: 10vw;
+background-color: rgb(250,210,176);
+margin-bottom: 5vh;
+margin-top: 2vh;
+}
